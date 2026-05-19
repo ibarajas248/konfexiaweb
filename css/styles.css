@@ -1164,7 +1164,7 @@ body.overlay-nav .site-header.is-scrolled {
 
 .contact-hero-copy h1 {
   margin: 0;
-  color: #f4fbff;
+  color: #66c2ff;
   font-family: "Plus Jakarta Sans", "Manrope", sans-serif;
   font-size: clamp(2.06rem, 4.8vw, 4.25rem);
   line-height: 1.04;
@@ -1713,7 +1713,7 @@ body.overlay-nav .site-header.is-scrolled {
 
 .control-hero-copy h1 {
   margin: 0;
-  color: #f5fbff;
+  color: #66c2ff;
   font-family: "Plus Jakarta Sans", "Manrope", sans-serif;
   font-size: clamp(2.06rem, 4.8vw, 4.3rem);
   line-height: 1.04;
