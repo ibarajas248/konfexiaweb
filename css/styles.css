@@ -1872,6 +1872,94 @@ body.overlay-nav .site-header.is-scrolled {
   line-height: 1.63;
 }
 
+.privacy-page .hero-copy h1 {
+  max-width: 11ch;
+}
+
+.privacy-hero {
+  padding-bottom: 38px;
+}
+
+.privacy-summary a,
+.privacy-content a {
+  color: #1d68ad;
+  font-weight: 700;
+}
+
+.privacy-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.privacy-index {
+  position: sticky;
+  top: 108px;
+  padding: 22px;
+  border: 1px solid #c8daed;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 18px 38px rgba(12, 38, 66, 0.08);
+}
+
+.privacy-index a {
+  display: block;
+  margin-top: 12px;
+  color: #315b83;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.privacy-index a:hover {
+  color: #1c6db3;
+}
+
+.privacy-content {
+  padding: clamp(24px, 4vw, 42px);
+  border: 1px solid #c8daed;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 20px 46px rgba(12, 38, 66, 0.1);
+}
+
+.privacy-content section + section {
+  margin-top: 34px;
+  padding-top: 30px;
+  border-top: 1px solid #d3e0ee;
+}
+
+.privacy-content h2 {
+  margin: 0;
+  color: #12395f;
+  font-size: clamp(1.28rem, 2vw, 1.78rem);
+  line-height: 1.22;
+  font-family: "Plus Jakarta Sans", "Manrope", sans-serif;
+}
+
+.privacy-content p,
+.privacy-content li {
+  color: #405b79;
+  line-height: 1.76;
+}
+
+.privacy-content p {
+  margin: 14px 0 0;
+}
+
+.privacy-content ul {
+  margin: 16px 0 0;
+  padding-left: 22px;
+}
+
+.privacy-content li + li {
+  margin-top: 10px;
+}
+
+.privacy-content strong {
+  color: #143e66;
+}
+
 .site-footer {
   margin-top: 58px;
   border-top: 1px solid #cadced;
@@ -1976,6 +2064,14 @@ body.overlay-nav .site-header.is-scrolled {
   .control-hero,
   .control-hero-grid {
     min-height: auto;
+  }
+
+  .privacy-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .privacy-index {
+    position: static;
   }
 
   .contact-hero,
